@@ -1,6 +1,3 @@
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
