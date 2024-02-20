@@ -1,0 +1,1 @@
+A calculator for market cashier that combines and adds.
