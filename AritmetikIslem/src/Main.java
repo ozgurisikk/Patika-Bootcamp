@@ -11,11 +11,11 @@ public class Main {
         // Obtaining values from use
 
         System.out.print("Please enter first number : ");
-        a = input.nextInt();
+            a = input.nextInt();
         System.out.print("Please enter second number: ");
-        b = input.nextInt();
+            b = input.nextInt();
         System.out.print("Pleae enter third number: ");
-        c = input.nextInt();
+            c = input.nextInt();
 
         // Using formula
 
