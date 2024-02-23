@@ -1,0 +1,1 @@
+It is a graduation checker with an average value and checking whether scores are between 0-100 or not.
