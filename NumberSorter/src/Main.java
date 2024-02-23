@@ -1,4 +1,3 @@
-import sun.awt.AWTAccessor;
 
 import java.util.Scanner;
 
