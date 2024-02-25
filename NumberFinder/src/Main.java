@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         int n;
-        int toplam = 0, sayac = 0;
+        int toplam = 0;
         Scanner scan = new Scanner(System.in);
 
         do {
@@ -13,12 +13,14 @@ public class Main {
             n = scan.nextInt();
             if (n % 4 == 0 || n % 2 ==0){
                 toplam += n;
-                sayac++;
 
+
+            }else{
+                System.out.println("Tek sayi girdiniz!");
             }
         }while (n % 2 == 0);
 
-        System.out.println("Sayilarin topolami: " + toplam);
+        System.out.println("Girdiginiz cift sayilarin topolami: " + toplam);
 
 
     }
