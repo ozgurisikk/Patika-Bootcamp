@@ -1,4 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ public class Main {
         int right = 3, balance = 1500;
         int action, deposit, withdraw, choose;
 
-        while (right > 0){
+        while (right > 0) {
 
             System.out.print("Enter your user name: ");
             userName = input.nextLine();
@@ -18,7 +17,7 @@ public class Main {
             password = input.nextLine();
 
             //login match
-            if (userName.equals("patika") && password.equals("patika123")){
+            if (userName.equals("patika") && password.equals("patika123")) {
                 System.out.println("Login Successful");
 
                 //action deter
@@ -60,21 +59,20 @@ public class Main {
                             System.out.println("Invalid selection");
                     }
 
-                //quits program
-                }while(action != 4);
+                    //quits program
+                } while (action != 4);
                 break;
 
 
-
-            //false login
-            }
-            else{
+                //false login
+            } else {
                 right--;
-                System.out.println("Username or password is wrong, please try again." );
+                System.out.println("Username or password is wrong, please try again.");
 
-                if (right == 0){ System.out.println("Your account is blocked, please contact with us. ");
+                if (right == 0) {
+                    System.out.println("Your account is blocked, please contact with us. ");
 
-                } else{
+                } else {
                     System.out.println("Your remaining rights are: " + right);
 
                 }
