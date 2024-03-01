@@ -4,7 +4,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter a number: ");
+        System.out.print("Enter a number: ");
         int b = input.nextInt();
         int a = arrayMinus(b);
         arrayPlus(a, b);
@@ -22,9 +22,13 @@ public class Main {
 
     static int arrayPlus(int a, int b) {
 
-        if (b >= a)  System.out.print(a + " ");
-        return arrayPlus(a + 5, b);
-
+        if (b >= a){  System.out.print(a + " ");
+            return arrayPlus(a + 5, b);
+        }
+        else{
+            return b;
+        }
     }
+
 }
 
