@@ -18,6 +18,9 @@ public class Main {
         bookSet.add(b4);
         bookSet.add(b5);
 
+        System.out.println("Alphabetic sorted list: ");
+        System.out.println(" ");
+
         for (Book gez : bookSet){System.out.println(gez.getBookName() + " - " + gez.getBookPage() + " - " + gez.getBookAuthor() + " -  " + gez.getBookYear());
         }
 
@@ -30,7 +33,8 @@ public class Main {
             }
         });
         bookPageSet.addAll(bookSet);
-
+        System.out.println("Sorted to page number list: ");
+        System.out.println(" ");
         for (Book gezTwo : bookPageSet){
             System.out.println(gezTwo.getBookName() + " - " + gezTwo.getBookPage() + " - " + gezTwo.getBookAuthor() + " - " + gezTwo.getBookYear());
         }
