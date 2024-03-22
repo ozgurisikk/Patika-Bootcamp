@@ -29,7 +29,7 @@ public class Main {
         TreeSet<Book> bookPageSet = new TreeSet<>(new Comparator<Book>() {
             @Override
             public int compare(Book o1, Book o2) {
-                return o1.getBookPage() - o2.getBookPage();
+                return o2.getBookPage() - o1.getBookPage();
             }
         });
         bookPageSet.addAll(bookSet);
