@@ -1,8 +1,10 @@
 CREATE TABLE employee(
-id INTEGER, name VARCHAR(50), birthday DATE, email VARCHAR(100)
+id INTEGER  PRIMARY KEY,
+name VARCHAR(50),
+email VARCHAR(100),
+birthday DATE
 );
-
 --and then 
 
-insert into employee (id, name, birthday, email) values (1, 'Rochette Children', '1954-09-02', 'rchildren0@simplemachines.org');
+insert into employee (name, birthday, email) values ('Laure Eisold', '2015-01-13', 'leisold0@census.gov');
 --and 50 more
