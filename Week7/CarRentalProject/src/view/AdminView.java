@@ -166,7 +166,6 @@ public class AdminView extends Layout {
 
 
 
-
         this.btn_rent_search.addActionListener(e -> {
             if (this.cmb_rented_plate.getSelectedItem() != null){
                 ComboItem selectedRent = (ComboItem) this.cmb_rented_plate.getSelectedItem();

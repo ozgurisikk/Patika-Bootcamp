@@ -105,6 +105,7 @@ public class CarManager {
         if (whereStr.length() > 0){
             query += " WHERE " + whereStr;
         }
+
         ArrayList<Car> searchedCarList = this.carDao.selectByQuery(query);
         bookOrWhere.add("('" + strt_date + "' BETWEEN book_strt_date AND book_fnsh_date)");
         bookOrWhere.add("('" + fnsh_date + "' BETWEEN book_strt_date AND book_fnsh_date)");
@@ -121,7 +122,7 @@ public class CarManager {
             busyCarID.add(book.getCar_id());
         }
         searchedCarList.removeIf(car -> busyCarID.contains(car.getId()));
-
+        System.out.println(query);
         return searchedCarList;
     }
 

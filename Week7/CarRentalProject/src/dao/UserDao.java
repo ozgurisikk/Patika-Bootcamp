@@ -31,8 +31,6 @@ public class UserDao {
         return userList;
     }
 
-
-
     public User findByLogin(String username, String password){ // kullanici adi sifre yollayip boyle bir kullanici olup olmadigini sorguluyoruz
         User obj = null;
         String query = "SELECT * FROM public.user WHERE user_name = ? AND user_pass = ? ";

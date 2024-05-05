@@ -13,9 +13,6 @@ public class ComboItem {
         this.key = key;
         this.value = value;
     }
-    public ComboItem(int id, String plate, Brand brand, Model model, String name, String mpno , String mail, String tcno, Date strt, Date fnsh , int prc){
-
-    }
 
     public int getKey() {
         return key;

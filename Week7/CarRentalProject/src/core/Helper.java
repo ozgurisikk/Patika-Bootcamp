@@ -37,6 +37,10 @@ public class Helper {
                 msg = "Hatali islem yapildi";
                 title = "Hata";
                 break;
+            case "psswrd":
+                msg = "Sifre yanlis";
+                title = "Hata";
+                break;
             default:
                 msg = str;
                 title = "Mesaj";
@@ -65,7 +69,6 @@ public class Helper {
         }
         return false;
     }
-
     public static int getLocationPoint(String type, Dimension size){
         switch (type){
             case "x" :
