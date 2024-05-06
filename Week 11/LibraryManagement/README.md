@@ -27,15 +27,21 @@ Bu Java projesi, kütüphane yönetim sistemi için bir veritabanı uygulamasıd
 
 ## Tablo Görüntüleri
 * Book Table
+
 ![Book Table](images/bookTable.png)
 * Author Table
+
 ![Author Table](images/authorTable.png)
 * Publisher Table
+
 ![Publisher Table](images/publisherTable.png)
 * Category Table
+
 ![Category Table](images/categoryTable.png)
 * Book2Category Table
+
 ![Book2Category Table](images/book2categTable.png)
 * Borrow Table
+
 ![Borrow Table](images/borrowTable.png)
 
