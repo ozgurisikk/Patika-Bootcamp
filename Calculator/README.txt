@@ -1,1 +1,0 @@
-Basic calculator with 4 operators, addition substraction multiplication and divison.

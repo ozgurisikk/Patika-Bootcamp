@@ -1,8 +1,6 @@
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
+import jakarta.persistence.*;
 
+import java.util.List;
 
 
 public class Main {
@@ -13,9 +11,11 @@ public class Main {
         transaction.begin();
 
 
-
-        Product product = entityManager.find(Product.class, 1);
-        System.out.println(product.getCategory().getName());
+        Query getCategories = entityManager.createQuery("SELECT supplier_mail FROM Supplier supplier_mail");
+        List<Supplier > categoryList = getCategories.getResultList();
+        for (Supplier supp : categoryList){
+            System.out.println((supp.getAddres()));
+        }
 /*
          //Create Supplier
 

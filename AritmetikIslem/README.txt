@@ -1,1 +1,0 @@
-A basic a+b*c-b formula user program.

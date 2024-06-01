@@ -1,1 +1,0 @@
-Login program that checks whether user entered correct or wrong password. If it is wrong; helps you to create a new one.

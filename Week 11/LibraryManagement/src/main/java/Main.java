@@ -12,6 +12,7 @@ public class Main {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
 
+
         transaction.begin();
 
         Author emily = new Author();

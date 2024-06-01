@@ -1,1 +1,0 @@
-A basic hipotenus calculator

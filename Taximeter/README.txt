@@ -1,1 +1,0 @@
-Taximeter program that calculates total cost of journey.

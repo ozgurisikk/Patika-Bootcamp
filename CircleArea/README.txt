@@ -1,1 +1,0 @@
-Circle area, perimeter and Area of circle segment calculator.

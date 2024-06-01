@@ -1,1 +1,0 @@
-It is a basic GPA calculator which informs you whether you passed or not at the end.

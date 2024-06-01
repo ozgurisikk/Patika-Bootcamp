@@ -1,1 +1,0 @@
-It is a tax calculator which applies different tax ratios due to product amount.

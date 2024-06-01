@@ -13,7 +13,7 @@ public class Category {
     @Column(name = "category_name", nullable = false)
     private String name;
 
-    @Column(name = "category_description", nullable = false)
+    @Column(name = "category_description")
     private String description;
 
     @ManyToMany(mappedBy = "categoryList", cascade = CascadeType.REMOVE)
