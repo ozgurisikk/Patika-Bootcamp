@@ -1,0 +1,1 @@
+Horoscope checker with date and month information

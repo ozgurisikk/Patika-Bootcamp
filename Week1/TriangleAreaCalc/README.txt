@@ -1,0 +1,1 @@
+Ucgenin cevresini ve alanini hesaplayan program
