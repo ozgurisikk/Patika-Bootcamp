@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Usage</title>
+</head>
+<body>
+    <h1>HTML Forms Usage</h1>
+    <form action="/submit_form.html" method="get">
+        <fieldset>
+            <legend>INFO</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" >
+            </div>
+            <div>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </div>
+            <div>
+                <label for="brand">Favourite Brand</label>
+                <select id="brand">
+                    <option value="empty">Choose One</option>
+                    <option value="bmw">BMW</option>
+                    <option value="audi">Audi</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Dodge">Dodge</option>
+                    <option value="Nissan">Nissan</option>
+                    
+                </select>
+            </div>
+            <div>
+                <label for="msg">Message:</label>
+                <textarea  id="msg" placeholder="Enter your msg here"></textarea>
+            </div>
+            <button type="submit">Submit form</button>
+            <button type="reset">Clear form</button>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
