@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <h2>Example</h2>
+    <form>
+        <fieldset>
+            <legend>Baslik</legend>
+            <div>
+                <label for="fullname">Name Surname:</label>
+                <input type="text" id="fullname">
+            </div>
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+            </div>
+            <div>
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday">
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <select id="city">
+                    <option value="">Choose</option>
+                    <optgroup label="Marmara">
+                        <option value="Istanbul">Istanbul</option>
+                        <option value="Edirne">Edirne</option>
+                    </optgroup>
+                    <optgroup label="Ege">
+                        <option value="Izmir">Izmir</option>
+                        <option value="Mugla">Mugla</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" name="hobbies[]" value="sport">Sport
+                <input type="checkbox" name="hobbies[]" value="music">Music
+                <input type="checkbox" name="hobbies[]" value="read ">Reading
+            </div>
+            <div>
+                <label for="cv">Upload a File</label>
+                <input type="file" id="cv">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Contact</legend>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <textarea id="address"></textarea>
+            </div>
+            
+        </fieldset>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password"  id="password">
+        </div>
+        <div>
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+            <button>tste</button>
+        </div>
+        <h2>HTML Input Types</h2>
+        <h3>Input Type Color</h3>
+        <input type="color">
+
+        <h3>Input Type Number</h3>
+        <input type="number">
+
+        <h3>Input Type Range</h3>
+        <input type="range" max="2">
+        <h3>Input Type Time</h3>
+        <input type="time">
+
+        <h2>HTML Input Attributes</h2>
+        <h3>Value Attribute</h3>
+        <input type="text" value="space holder">
+
+        <h3>Read Only Attribute</h3>
+        <input type="text" value="DOE" readonly>
+
+        <h3>Disabled Attribute</h3>
+        <input type="text" value="DOE" disabled>
+
+        <h3>Placeholder Attribute</h3>
+        <input type="text" placeholder="write here ">
+
+        <!-- 
+        
+        
+        -->
+    </form>
+</body>
+</html>
