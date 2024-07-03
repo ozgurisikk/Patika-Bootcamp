@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        background-color: rgb(231, 231, 231);
+
+}
+
+.container{
+    background-color: rgb(231, 231, 231);
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+
+}
+.nav-bar{
+    background-color: darkslateblue;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+
+}
+.nav-bar h1{
+    color: wheat;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 45px;
+}
+
+.nav-bar ul li{
+    color: wheat;
+    margin-top: 5px;
+    display: inline-block;
+    padding: 25px 5px;
+}
+.nav-bar ul a {
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.latest{
+    margin: 30px 70px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: darkslateblue;
+
+}
+
+.zonta{
+    max-width: 250px;
+    max-height: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid wheat;
+}
+
+.classic{
+    max-width: 250px;
+    max-height: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px solid wheat;
+
+
+}
+
+.total-article{
+    display: flex;
+    justify-content: center;
+
+
+}
+.total-article p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px 20px;
+    line-height: 30px;
+}
+
+.article1{
+    margin: 30px 30px;
+    padding-bottom: 20px;
+    max-width: 50%;
+    align-items: center;
+    background-color: rgb(141, 131, 209);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px darkslateblue;
+}
+
+.article1 h2{
+    text-align: center;
+    margin: 5px 0;
+    color: wheat;
+}
+.article2{
+    margin: 30px 30px;
+    padding-bottom: 20px;
+    max-width: 50;
+    background-color: rgb(141, 131, 209);
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px darkslateblue;
+
+
+
+}
+.article2 h2{
+    text-align: center;
+    margin: 5px 0;
+    color: wheat;
+
+}
+
+.continue{
+    color: wheat;
+    font-size: 20px;
+    margin: 20px 20px;
+    
+}
+
+.footer {
+    margin-top: 200px;
+    padding: 20px 0;
+    text-align: center;
+    background-color: darkslateblue;
+    color: wheat;
+}
+
+.button{
+   align-self: center;
+
+}
