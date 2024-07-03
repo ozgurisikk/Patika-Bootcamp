@@ -71,8 +71,8 @@ body{
 .total-article{
     display: flex;
     justify-content: center;
-
-
+    
+    align-items: center;
 }
 .total-article p {
     font-family:'Times New Roman', Times, serif;
@@ -89,6 +89,32 @@ body{
     background-color: rgb(141, 131, 209);
     border-radius: 20px;
     box-shadow: 10px 10px 5px darkslateblue;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.button-container button{
+   position: relative;
+   width: 100px;
+   height: 40px;
+   background-color: wheat;
+   box-shadow: 5px 5px 3px black;
+   border-radius: 20px;
+   font-weight: 700;
+   font-size: 14px;
+   
+}
+.button:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    background-color: darkslateblue; 
+    color: wheat;
+    border: 2px solid wheat;
 }
 
 .article1 h2{
