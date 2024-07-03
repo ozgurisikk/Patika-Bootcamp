@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./gridview.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>CSS Responsive Layout</h1>
+
+    <header id="header">
+        <div class="container">
+            <div class="row center">
+                <div class="col-xs col-sm-3">
+                    <img class="logo" src="https://placehold.co/155x43?text=No+Need" alt="Logo" width="155" height="43">
+                </div>
+                <div class="col-xs col-sm-9">
+                    <nav id="nav">
+                        <a class="nav-item" href="#">Menu 1</a>
+                        <a class="nav-item" href="#">Menu 2</a>
+                        <a class="nav-item" href="#">Menu 3</a>
+                        <a class="nav-item" href="#">Menu 4</a>
+                        <a class="button" href="#">Button</a>
+                    </nav>
+                    <button id="mobile-menu-button" class="button">Menu</button>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="mobile-menu" style="display: none;">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+            <a href="#">Menu 4</a>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="row center">
+            <div class="col-xs-12 col-sm-6">
+                <div class="hero-caption">
+                    <h1>Great design is invisible</h1>
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <a class="button" href="#">Call to Action</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <img class="hero-image" src="https://placehold.co/750x550?text=(-_-)" alt="Hero img" width="750" height="550">
+            </div>
+        </div>
+
+    </div>
+    <section class="section white ">
+        <h2 class="section-title">About</h2>
+        <div id="about">
+            <h4>Why our clients trust us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit dolore ducimus iusto libero veritatis praesentium aliquam sit odio voluptatem. Animi, distinctio! Cumque nam, error saepe at laudantium tempore excepturi autem.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Latest Blog</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="blog">
+                        <img src="https://placehold.co/400x250?text=/" alt="first" width="400" height="250">
+                        <div class="blog-content">
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos voluptas repellat, magni enim inventore officiis delectus doloremque omnis quos vitae quisquam eius reiciendis reprehenderit, quas porro architecto. Voluptate, minima?</p>
+                            <a class="button" href="#">Learn more</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="blog">
+                        <img src="https://placehold.co/400x250?text=/\" alt="first" width="400" height="250">
+                        <div class="blog-content">
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos voluptas repellat, magni enim inventore officiis delectus doloremque omnis quos vitae quisquam eius reiciendis reprehenderit, quas porro architecto. Voluptate, minima?</p>
+                            <a class="button" href="#">Learn more</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <article class="blog">
+                        <img src="https://placehold.co/400x250?text=\" alt="first" width="400" height="250">
+                        <div class="blog-content">
+                            <h3>Lorem ipsum dolor sit amet</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dignissimos voluptas repellat, magni enim inventore officiis delectus doloremque omnis quos vitae quisquam eius reiciendis reprehenderit, quas porro architecto. Voluptate, minima?</p>
+                            <a class="button" href="#">Learn more</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section white">
+        <h2 class="section-title">Our Happy Clients</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <article class="comment">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas molestias rem ex laboriosam in quos eveniet eum accusantium, unde vitae, nesciunt architecto doloremque minus hic obcaecati, nostrum tenetur modi ipsa?</p>
+                        <img src="https://placehold.co/50?text=JD" alt="photo" width="50" height="50">
+                        <h3>John Doe</h3>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <article class="comment">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas molestias rem ex laboriosam in quos eveniet eum accusantium, unde vitae, nesciunt architecto doloremque minus hic obcaecati, nostrum tenetur modi ipsa?</p>
+                        <img src="https://placehold.co/50?text=JW" alt="photo" width="50" height="50">
+                        <h3>John Woe</h3>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer"> &copy; 2024 Responsive Layout</footer>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function(){
+            var menu = document.getElementById('mobile-menu');
+
+            if(menu.style.display== 'none'){
+                menu.style.display = 'block';
+            }else{
+                menu.style.display = 'none'
+            }
+        
+        })
+
+        
+    </script>
+</body>
+</html>
