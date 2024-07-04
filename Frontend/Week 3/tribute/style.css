@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(https://www.rollingstone.com/wp-content/uploads/2018/06/r1289_fea_cornell_a-c8f5ec1b-7823-4cf3-8d90-a6efb330d280.jpg?w=1581&h=1054&crop=1);
+    background-color: rgb(47, 51, 54);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.nav{
+    background-color:rgb(36, 38, 39);
+    width: 65%;
+    height: 15%;
+    gap: 40px;
+    opacity: 0.75;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0; 
+    right: 0; 
+    margin: 20px;
+    border: 3px ridge white;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    align-items: end;
+    margin: 720px 65px;
+    width: 380px;
+    height: 100px;    
+    
+    
+}
+.name p{
+   font-family: "Great Vibes", cursive;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 80px;
+   color: white;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: rgb(47, 51, 54);
+    border: 2px solid white;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.head-paragraph{
+    width: 40%;
+}
+
+.head-paragraph h1{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 0 0 50px white;
+    font-size: 60px;
+}
+.head-paragraph p {
+    text-align: center; 
+    line-height: 25px;
+    text-shadow: 0 0 50px white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: -35px;
+}
+.paragraph{
+    width: 40%;
+    
+    margin-top: 30px;
+}
+.paragraph h2{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 0 0 50px white;
+    font-size: 60px;
+}
+.paragraph p{
+    text-align: center; 
+    line-height: 25px;
+    text-shadow: 0 0 50px white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
