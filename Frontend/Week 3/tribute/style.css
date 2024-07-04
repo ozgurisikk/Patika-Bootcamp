@@ -107,3 +107,9 @@
     font-size: 17px;
     letter-spacing: 1px;
 }
+
+@media(max-width: 748px){
+    .name{
+        display: none;
+    }
+}
