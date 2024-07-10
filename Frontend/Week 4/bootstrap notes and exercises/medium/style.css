@@ -1,0 +1,25 @@
+body{
+    font-family: "PT Serif", serif;
+}
+
+.bg-yellow{
+    background-color: rgb(253, 181, 19);
+}
+
+.border-bottom-dark{
+    border-bottom: 1px solid rgb(41, 41, 41);
+}
+.border-top-dark{
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+.aside-buttons li{
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) { 
+
+    .caro-photo{
+        width: 75%;
+    }
+}
