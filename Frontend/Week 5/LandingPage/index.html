@@ -7,7 +7,7 @@
 
     <title>Landing Page</title>
 </head>
-<body class="bg-gray-100 px-40 py-8 ">
+<body class="bg-gray-100 px-40 pt-8 ">
     <nav class="bg-gray-50 py-4 px-8 rounded flex content-center justify-between ">
         <a href="#"> <img class="size-16 " src="./copyIcon.png" alt=""></a>
         <div class="flex items-center justify-center gap-8">
@@ -20,21 +20,21 @@
     </nav>
 
 
-    <div class="flex gap-6 mt-10">
+    <div class="flex gap-6 mt-10 flex-col lg:flex-row ">
         <div class="py-4 px-20 shadow rounded bg-gray-50 basis-4/12 flex flex-col justify-center items-center text-center" >
             <p class="mt-8 text-xl text-indigo-500 font-semibold">Mamba design system</p>
-            <p class="mt-2 text-6xl font-extrabold ">Build it with Mamba</p>
+            <p class="mt-2 lg:text-6xl  text-4xl font-extrabold ">Build it with Mamba</p>
             <p class="mt-6"> <span class="font-semibold">Modular and versatile.</span> The ultimate designt toolkit for savy technology startups</p>
             <input class="mt-5 pl-2" type="text" placeholder="Your name"> 
             <input class="mt-2 pl-2" type="text" placeholder="Email address"> 
             <button class="mt-5 bg-indigo-500 rounded shadow text-white px-10 py-2 mb-20">Join the waitlist</button>
         </div>
-        <div class="p-4 shadow rounded bg-gray-50 basis-8/12 	">
+        <div class="p-4 shadow rounded bg-gray-50 basis-8/12 hidden sm:block ">
             <img class="w-full h-full object-cover" src="https://picsum.photos/1100/400?grayscale" alt="" placeholder="Your name">
         </div>
     </div>
 
-    <div class="flex flex-col mt-16 items-center ">
+    <div class="flex flex-col mt-16 items-center">
         <p class="text-indigo-500 font-semibold text-base">HOW IT WORKS</p>
         <p class="text-5xl font-bold mt-3">Building with Mamba is simple.</p>
     </div>
@@ -57,7 +57,7 @@
 
     <div class="flex mt-10 mb-16">
         <div class="basis-6/12">   
-            <img class="rounded" src="https://picsum.photos/800/400?grayscale" alt="">
+            <img class="rounded object-contain" src="https://picsum.photos/800/400?grayscale" alt="">
         </div>
         <div class="basis-6/12 flex flex-col justify-center items-center text-center px-16 ">
             <img class="w-32 h-32 rounded-full object-contain bg-gray-300" src="https://www.rollingstone.com/wp-content/uploads/2018/06/r1289_fea_cornell_a-c8f5ec1b-7823-4cf3-8d90-a6efb330d280.jpg?w=1581&h=1054&crop=1" alt="">
@@ -66,5 +66,57 @@
             <p class="text-lg text-slate-600">Singer</p>
         </div>
     </div>
+
+    <div class="bg-gray-50 py-5 px-8 content-center">
+        <h1 class="text-3xl sm:text-6xl font-bold font-sans mb-8">Create with us</h1>
+        <p class="pb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dignissimos aspernatur quas eum expedita quo facilis alias eveniet, porro molestiae obcaecati quisquam commodi placeat ullam debitis eos aut magnam perferendis repudiandae nisi? Maxime nihil inventore animi nesciunt sed, sunt expedita reprehenderit suscipit. Quam expedita perferendis veritatis sapiente sunt cupiditate quas molestias rerum facilis numquam asperiores, facere, maxime mollitia quidem suscipit?</p>
+    </div>
+
+    <div class="flex mt-10 flex-col lg:flex-row ">
+        
+        <div class="p-4  bg-gray-50 basis-8/12 hidden sm:block ">
+            <img class="w-full h-full object-cover" src="https://picsum.photos/1100/400?grayscale" alt="" placeholder="Your name">
+        </div>
+        <div class="pt-10 px-5 rounded bg-gray-50 basis-4/12 " >
+            <p class="bg-indigo-500 text-white inline-block px-4 rounded-full py-1">Business</p>
+            <p class="pt-5 pl-1 font-bold text-3xl">Curating a workplace that inspires team movement</p>
+            <p class="mt-28 text-slate-600">November 30, 2020</p>
+            <p class="text-slate-600">By Leroy Jenkins</p>
+        </div>
+    </div>
+    
+    <div class="flex grid-cols-3 gap-6 mt-10">
+        <div class="basis-4/12 bg-gray-50 inline-block py-12 px-8 ">
+           <p><span class="font-bold">Panel-based blocks. </span>Flexible panels that are perfect for building functional layouts</p>
+        </div>
+        <div class="basis-4/12 bg-gray-50 inline-block py-12 px-8 ">
+            <p><span class="font-bold">Responsive design.</span> Panels look greater no matter the device.</p>
+        </div>
+        <div class="basis-4/12 bg-gray-50 inline-block py-12 px-8 ">
+            <p><span class="font-bold">Premium support.</span> Join over 50.000 satisfied customers who use our templates.</p>
+
+        </div>
+    </div>
+
+    <div class="rounded py-20 bg-gray-50 mt-16 flex-col content-center text-center items-center justify-center	">
+        <h1 class="text-5xl font-bold mb-5">Our team is here to help you.</h1>
+        <p class="font-semibold mb-10">Meet our crew ></p>
+        <img class="inline-block rounded" src="https://picsum.photos/1200/500?grayscale" alt="">
+    </div>
+
+    <footer>
+        <div class="flex bg-gray-50 mt-20 justify-between text-center items-center content-center py-10 px-8	">
+            <div>
+                <p class="font-bold text-xl text-indigo-500">Mamba.</p>
+            </div>
+            <div>
+                <div class="flex gap-4  ">
+                    <a href="#">E-Mail</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Github</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
