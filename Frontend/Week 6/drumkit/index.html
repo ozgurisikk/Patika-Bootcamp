@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Drumkit</title>
+  </head>
+  <body class="bg-indigo-900">
+        <div class="flex justify-center mt-5 text-6xl text-white">
+            <h1>LET'S ROCK!</h1>
+        </div>
+        <div class="flex justify-center align-center w-[700px] mx-auto mt-16 ">
+            <img src="./drum.png#" alt="">
+        </div>
+        <audio id="boom">
+            <source src="./sounds/boom.wav" type="audio/wav">
+        </audio>
+        <audio id="clap">
+            <source src="./sounds/clap.wav" type="audio/wav">
+        </audio>
+        <audio id="hihat">
+            <source src="./sounds/hihat.wav" type="audio/wav">
+        </audio>
+        <audio id="kick">
+            <source src="./sounds/kick.wav" type="audio/wav">
+        </audio>
+        <audio id="openhat">
+            <source src="./sounds/openhat.wav" type="audio/wav">
+        </audio>
+        <audio id="ride">
+            <source src="./sounds/ride.wav" type="audio/wav">
+        </audio>
+        <audio id="snare">
+            <source src="./sounds/snare.wav" type="audio/wav">
+        </audio>
+        <audio id="tink">
+            <source src="./sounds/tink.wav" type="audio/wav">
+        </audio>
+        <audio id="tom">
+            <source src="./sounds/tom.wav" type="audio/wav">
+        </audio>
+        
+            <div class="flex  justify-between ml-10 mr-10 mt-10">
+                <button onclick="playBoom()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> A </button>
+                <button onclick="playClap()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> S </button>
+                <button onclick="playHihat()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> D </button>
+                <button onclick="playKick()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> F </button>
+                <button onclick="playOpenhat()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> G </button>
+                <button onclick="playRide()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> H </button>
+                <button onclick="playSnare()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> J </button>
+                <button onclick="playTink()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> K </button>
+                <button onclick="playTom()" class=" bg-indigo-300 px-9 py-2 mt-10  rounded"> L </button>
+            </div>
+            
+   
+    <script src="drumkit.js"></script>
+   
+
+
+  
+  </body>
+</html>
