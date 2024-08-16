@@ -1,0 +1,22 @@
+.product-header h6{
+    color: var(--font-color-2);
+}
+
+.product .price{
+    margin: 32px 0;
+}
+
+.product-feature h6{
+    color: var(--font-color-1);
+    margin-bottom: 16px;
+}
+
+.product-feature i{
+    font-size: 32px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+.product-feature:not(:first-child) {
+    margin-top: 24px;
+}
