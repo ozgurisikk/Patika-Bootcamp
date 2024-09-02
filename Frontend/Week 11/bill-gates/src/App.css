@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 32px;
+}
+
+.money-header{
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+}
+
+.money-header h1{
+    font-size: 72px;
+}
+
+.header img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.header p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.item{
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item-image{
+    object-fit: contain;
+
+}
+
+.button-area{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+
+.invoice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
